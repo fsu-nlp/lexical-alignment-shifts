@@ -1,6 +1,8 @@
 # lhf-lex -- Lexical Alignment & Preference-Stage Shifts (LAS/TPS)
 _Companion code for the paper: **Fully Automated Identification of Lexical Alignment and Preference-Stage Shifts in Large Language Models**._
 
+**Paper:** [lexical_alignment_shifts.pdf](./lexical_alignment_shifts.pdf)
+
 [Commands](./COMMANDS.md)
 
 ---
