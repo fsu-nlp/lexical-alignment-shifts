@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lhf-lex"
+version = "0.3.0"
+description = "Companion code for Juzek, Ming & Hernandez (LREC 2026): pipeline for Lexical Alignment Score (LAS) and Triangulated Preference Shift (TPS)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Thomas Stephan Juzek", email = "tjuzek@fsu.edu" },
+  { name = "Xiaoyang Ming", email = "xm24b@fsu.edu" },
+  { name = "Jose A. Hernandez", email = "jah22q@fsu.edu" },
+]
+license = { text = "GPL-3.0-or-later" }
+dependencies = [
+  "pandas>=2.0.0",
+  "transformers>=4.41.0",
+  "huggingface_hub>=0.24,<0.34.4",
+  "datasets>=2.18.0",
+  "accelerate>=0.30.0",
+  "peft>=0.11.0",
+  "trl>=0.4.7",
+  "tiktoken>=0.5.2",
+  "protobuf>=3.20.3,<5",
+  "sentencepiece>=0.1.99",
+  "tabulate>=0.9",
+  "openai>=1.40.0",
+  "spacy>=3.8,<4",
+  "spacy-lookups-data>=1.0.0",
+  # model wheels (hosted by Explosion)
+  "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl",
+  "en-core-web-trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.8.0/en_core_web_trf-3.8.0-py3-none-any.whl",
+  "cupy-cuda12x<13"
+]
+
+[project.urls]
+Homepage = "https://github.com/fsu-nlp/lexical-alignment-shifts"
+Repository = "https://github.com/fsu-nlp/lexical-alignment-shifts"
+Paper = "https://github.com/fsu-nlp/lexical-alignment-shifts/blob/main/lexical_alignment_shifts.pdf"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
