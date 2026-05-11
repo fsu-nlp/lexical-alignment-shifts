@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+build/
+dist/
+
+# Secrets / local config
+.env
+.env.*
+
+# Local "ignore" workspaces (intentionally untracked working copies)
+data-ig/
+out-ig/
+scripts-ig/
+
+# Editor / OS scratch
+.DS_Store
+.idea/
+.vscode/
