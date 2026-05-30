@@ -50,16 +50,16 @@ Note: the underlying PubMed abstracts used as prompts are works of the U.S. fede
 
 ## Citation
 
-If you use this code or build on this work, please cite:
+If you use this code or data, a citation is appreciated (though not required; see the licence).
 
 ```bibtex
-@inproceedings{juzek2026lexical,
+@inproceedings{juzek-etal-2026-fully,
   title     = {Fully Automated Identification of Lexical Alignment and Preference-Stage Shifts in Large Language Models},
   author    = {Juzek, Thomas Stephan and Ming, Xiaoyang and Hernandez, Jose A.},
-  booktitle = {Proceedings of the 2026 Language Resources and Evaluation Conference (LREC)},
+  booktitle = {Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)},
+  publisher = {European Language Resources Association (ELRA)},
   year      = {2026},
-  note      = {Proceedings volume, pages and DOI: TBD}
+  pages     = {6116--6131},
+  doi       = {10.63317/4ut7ammh7z3h}
 }
 ```
-
-A machine-readable citation is also available in [`CITATION.cff`](./CITATION.cff).
