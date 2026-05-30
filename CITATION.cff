@@ -1,54 +1,30 @@
 cff-version: 1.2.0
-title: >-
-  Companion code for "Fully Automated Identification of Lexical Alignment and
-  Preference-Stage Shifts in Large Language Models"
-message: >-
-  If you use this software or build on this work, please cite both the software
-  and the associated paper (see `preferred-citation`).
+message: "If you use this work, a citation is appreciated (though not required; see the licence)."
+title: "lexical-alignment-shifts: code for 'Fully Automated Identification...' (LREC 2026)"
 type: software
 authors:
-  - given-names: Thomas Stephan
-    family-names: Juzek
-    email: tjuzek@fsu.edu
-    affiliation: Florida State University
-  - given-names: Xiaoyang
-    family-names: Ming
-    email: xm24b@fsu.edu
-    affiliation: Florida State University
-  - given-names: Jose A.
-    family-names: Hernandez
-    email: jah22q@fsu.edu
-    affiliation: Florida State University
-repository-code: https://github.com/fsu-nlp/lexical-alignment-shifts
-license: GPL-3.0-or-later
-keywords:
-  - large language models
-  - lexical alignment
-  - preference learning
-  - RLHF
-  - DPO
-  - corpus linguistics
+  - family-names: "Juzek"
+    given-names: "Thomas Stephan"
+    orcid: "https://orcid.org/0000-0002-3204-3879"
+  - family-names: "Ming"
+    given-names: "Xiaoyang"
+  - family-names: "Hernandez"
+    given-names: "Jose A."
+repository-code: "https://github.com/fsu-nlp/lexical-alignment-shifts"
 preferred-citation:
   type: conference-paper
-  title: >-
-    Fully Automated Identification of Lexical Alignment and Preference-Stage
-    Shifts in Large Language Models
+  title: "Fully Automated Identification of Lexical Alignment and Preference-Stage Shifts in Large Language Models"
   authors:
-    - given-names: Thomas Stephan
-      family-names: Juzek
-      affiliation: Florida State University
-    - given-names: Xiaoyang
-      family-names: Ming
-      affiliation: Florida State University
-    - given-names: Jose A.
-      family-names: Hernandez
-      affiliation: Florida State University
-  collection-title: >-
-    Proceedings of the 2026 Language Resources and Evaluation Conference (LREC)
+    - family-names: "Juzek"
+      given-names: "Thomas Stephan"
+      orcid: "https://orcid.org/0000-0002-3204-3879"
+    - family-names: "Ming"
+      given-names: "Xiaoyang"
+    - family-names: "Hernandez"
+      given-names: "Jose A."
   year: 2026
-  # TODO: fill in once LREC 2026 proceedings are finalised
-  # publisher: ELRA Language Resource Association
-  # volume:
-  # start:
-  # end:
-  # doi:
+  collection-title: "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)"
+  publisher: "European Language Resources Association (ELRA)"
+  start: 6116
+  end: 6131
+  doi: "10.63317/4ut7ammh7z3h"
