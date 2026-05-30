@@ -33,8 +33,9 @@ The paper's two headline figures are reproduced in [`out/figures/`](./out/figure
 
 ---
 
-## AI usage
+## AI Assistance
 - Programming included partial AI assistance (GPT-5 and GitHub Copilot).
+- Repository polished with Claude Code.
 
 ---
 
