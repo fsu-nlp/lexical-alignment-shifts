@@ -39,13 +39,12 @@ The paper's two headline figures are reproduced in [`out/figures/`](./out/figure
 
 ---
 
-## License
+## Licence
 
-The **code** in this repository (`src/`, `scripts/`) is licensed under **GPL-3.0-or-later** — see [`LICENSE`](./LICENSE).
+- **Code** (`src/`, `scripts/`): MIT No Attribution (MIT-0). See [`LICENSE`](./LICENSE). Use it freely, no attribution required.
+- **Data and documentation** (`data/`, `*.md` files): CC0 1.0 Universal (public domain dedication). See [`LICENSE-DATA`](./LICENSE-DATA).
 
-The **data and documentation** (`data/`, `*.md` files) are licensed under **CC-BY-SA-4.0** — see [`LICENSE-DATA`](./LICENSE-DATA).
-
-Note: the underlying PubMed abstracts used as prompts are works of the U.S. federal government and are in the public domain; any licence on this repository covers only our derivatives (cleaned generations, POS tags, LAS/TPS tables, scripts).
+Note: the underlying PubMed abstracts used as prompts are works of the U.S. federal government and are in the public domain; any dedication here covers only our derivatives (cleaned generations, POS tags, LAS/TPS tables, scripts).
 
 ---
 
