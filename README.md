@@ -48,6 +48,8 @@ Note: the underlying PubMed abstracts used as prompts are included for research;
 
 ---
 
+The included paper PDF remains under its own terms (CC BY 4.0; LREC 2026, ACL Anthology), separate from the code and data licences above.
+
 ## Citation
 
 If you use this code or data, a citation is appreciated (though not required; see the licence).
