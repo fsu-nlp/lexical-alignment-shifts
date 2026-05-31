@@ -21,35 +21,6 @@ The paper's two headline figures are reproduced in [`out/figures/`](./out/figure
 
 ---
 
-## Requirements
-- General requirements as per .toml. 
-- **Generation** requires a GPU with ≥20 GB VRAM (per 7–8B model), Hugging Face auth.
-- Everything else: CPU is sufficient, you can even use our precomputed LAS/TPS tables.
-
----
-
-## Getting started
-- * Use the scripts directly, with the commands provided in COMMANDS.md.
-
----
-
-## AI Assistance
-- Programming included partial AI assistance (GPT-5 and GitHub Copilot).
-- Repository polished with Claude Code.
-
----
-
-## Licence
-
-- **Code** (`src/`, `scripts/`): MIT No Attribution (MIT-0). See [`LICENSE`](./LICENSE). Use it freely, no attribution required.
-- **Data and documentation** (`data/`, `*.md` files): CC0 1.0 Universal (public domain dedication). See [`LICENSE-DATA`](./LICENSE-DATA).
-
-Note: the underlying PubMed abstracts used as prompts are included for research; the CC0 dedication covers only our derivatives (cleaned generations, POS tags, LAS/TPS tables, scripts), and the source abstract texts remain under their respective terms.
-
----
-
-The included paper PDF remains under its own terms (CC BY 4.0; LREC 2026, ACL Anthology), separate from the code and data licences above.
-
 ## Citation
 
 If you use this code or data, a citation is appreciated (though not required; see the licence).
@@ -65,3 +36,32 @@ If you use this code or data, a citation is appreciated (though not required; se
   doi       = {10.63317/4ut7ammh7z3h}
 }
 ```
+
+## Requirements
+- General requirements as per .toml. 
+- **Generation** requires a GPU with ≥20 GB VRAM (per 7–8B model), Hugging Face auth.
+- Everything else: CPU is sufficient, you can even use our precomputed LAS/TPS tables.
+
+---
+
+## Getting started
+- * Use the scripts directly, with the commands provided in COMMANDS.md.
+
+---
+
+## Licence
+
+- **Code** (`src/`, `scripts/`): MIT No Attribution (MIT-0). See [`LICENSE`](./LICENSE). Use it freely, no attribution required.
+- **Data and documentation** (`data/`, `*.md` files): CC0 1.0 Universal (public domain dedication). See [`LICENSE-DATA`](./LICENSE-DATA).
+
+Note: the underlying PubMed abstracts used as prompts are included for research; the CC0 dedication covers only our derivatives (cleaned generations, POS tags, LAS/TPS tables, scripts), and the source abstract texts remain under their respective terms.
+
+---
+
+The included paper PDF remains under its own terms (CC BY 4.0; LREC 2026, ACL Anthology), separate from the code and data licences above.
+
+## AI Assistance
+- Programming included partial AI assistance (GPT-5 and GitHub Copilot).
+- Repository polished with Claude Code.
+
+---
